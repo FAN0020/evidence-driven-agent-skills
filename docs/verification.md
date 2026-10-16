@@ -9,7 +9,7 @@ Checked **2026-10-16** on macOS with Python **3.14.7**. These results concern th
 | Skill frontmatter and layout | 4/4 passed the local Codex `skill-creator` validator | Valid skill names, descriptions, and required entrypoints |
 | Codex display metadata | 4/4 passed | Valid short-description lengths and explicit skill names in default prompts |
 | Source-file preservation | Passed | All snapshotted files retain their recorded bytes except the documented archivist default-prompt addition and trailing blank-line cleanup in three UI references |
-| Relative Markdown links and anchors | 89 resolved across collection documentation and the two README updates | Referenced local files and checked heading targets exist |
+| Relative Markdown links and anchors | 99 resolved across collection documentation and the two README updates, including the academic README’s English and Chinese navigation | Referenced local files and checked heading targets exist |
 | Exact README installation snippet | Passed in a temporary `CODEX_HOME` | All four skill folders copy with byte-identical content |
 | Existing-install protection | Passed | A second installation refuses existing destinations without overwriting them |
 | Valid synthetic archive ledger | Exit 0 | One fully inspected and one explicitly inaccessible record reconcile structurally |
