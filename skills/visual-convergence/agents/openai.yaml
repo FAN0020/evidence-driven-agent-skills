@@ -1,0 +1,4 @@
+interface:
+  display_name: "Visual Convergence"
+  short_description: "Align existing UI with an approved visual direction"
+  default_prompt: "Use $visual-convergence to refine this existing interface against the approved reference and verify the rendered result."

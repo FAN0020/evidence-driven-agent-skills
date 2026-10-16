@@ -1,0 +1,149 @@
+[
+  {
+    "repository": "anthropics/skills",
+    "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+    "path": "skills/frontend-design/SKILL.md",
+    "url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design/SKILL.md",
+    "reviewed_on": "2026-10-16"
+  },
+  {
+    "repository": "anthropics/skills",
+    "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+    "path": "skills/webapp-testing/SKILL.md",
+    "url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/webapp-testing/SKILL.md",
+    "reviewed_on": "2026-10-16"
+  },
+  {
+    "repository": "vercel-labs/agent-skills",
+    "commit": "063bee94c3f4df8453406c830b0a7df0f2860278",
+    "path": "skills/web-design-guidelines/SKILL.md",
+    "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/web-design-guidelines/SKILL.md",
+    "reviewed_on": "2026-10-16"
+  },
+  {
+    "repository": "gfouillet/session-synthesis-skill",
+    "commit": "83c0f1d1566255b2b668806373c73497f4c9f277",
+    "path": "SKILL.md",
+    "url": "https://github.com/gfouillet/session-synthesis-skill/blob/83c0f1d1566255b2b668806373c73497f4c9f277/SKILL.md",
+    "reviewed_on": "2026-10-16"
+  },
+  {
+    "repository": "wimi321/codex-chat-export",
+    "commit": "988f58148422fb186df2d5893740f8d3669a7330",
+    "path": "SKILL.md",
+    "url": "https://github.com/wimi321/codex-chat-export/blob/988f58148422fb186df2d5893740f8d3669a7330/SKILL.md",
+    "reviewed_on": "2026-10-16"
+  },
+  {
+    "repository": "NVlabs/Skill2Env",
+    "commit": "507eab4d9952968de2be98f8729d3c66d487285a",
+    "path": "SkillHub/skills/game-postmortem/SKILL.md",
+    "url": "https://github.com/NVlabs/Skill2Env/blob/507eab4d9952968de2be98f8729d3c66d487285a/SkillHub/skills/game-postmortem/SKILL.md",
+    "reviewed_on": "2026-10-16"
+  },
+  {
+    "repository": "Jellypod-Inc/school-skills",
+    "commit": "cd484795e924e454caafd13ddc25c1ec76c48718",
+    "path": "skills/lecture-to-study-guide/SKILL.md",
+    "url": "https://github.com/Jellypod-Inc/school-skills/blob/cd484795e924e454caafd13ddc25c1ec76c48718/skills/lecture-to-study-guide/SKILL.md",
+    "reviewed_on": "2026-10-16"
+  },
+  {
+    "repository": "GraceLiao77/lecture-to-summary-skills",
+    "commit": "843284cc45336f2159af3f396a5a8130c994ebab",
+    "path": "SKILL.md",
+    "url": "https://github.com/GraceLiao77/lecture-to-summary-skills/blob/843284cc45336f2159af3f396a5a8130c994ebab/SKILL.md",
+    "reviewed_on": "2026-10-16"
+  },
+  {
+    "repository": "obra/superpowers",
+    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "skills/systematic-debugging/SKILL.md",
+    "url": "https://github.com/obra/superpowers/blob/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/systematic-debugging/SKILL.md",
+    "reviewed_on": "2026-10-16"
+  },
+  {
+    "repository": "obra/superpowers",
+    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "skills/test-driven-development/SKILL.md",
+    "url": "https://github.com/obra/superpowers/blob/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/test-driven-development/SKILL.md",
+    "reviewed_on": "2026-10-16"
+  },
+  {
+    "repository": "obra/superpowers",
+    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "skills/using-git-worktrees/SKILL.md",
+    "url": "https://github.com/obra/superpowers/blob/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/using-git-worktrees/SKILL.md",
+    "reviewed_on": "2026-10-16"
+  },
+  {
+    "repository": "obra/superpowers",
+    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "skills/verification-before-completion/SKILL.md",
+    "url": "https://github.com/obra/superpowers/blob/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/verification-before-completion/SKILL.md",
+    "reviewed_on": "2026-10-16"
+  },
+  {
+    "repository": "openai/skills",
+    "commit": "49f948faa9258a0c61caceaf225e179651397431",
+    "path": "skills/.curated/playwright/SKILL.md",
+    "url": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/playwright/SKILL.md",
+    "reviewed_on": "2026-10-16"
+  },
+  {
+    "repository": "wshobson/agents",
+    "commit": "044b4b21f083948e69ec878a7b07c8d0951a6ffa",
+    "path": "plugins/llm-application-dev/skills/llm-evaluation/SKILL.md",
+    "url": "https://github.com/wshobson/agents/blob/044b4b21f083948e69ec878a7b07c8d0951a6ffa/plugins/llm-application-dev/skills/llm-evaluation/SKILL.md",
+    "reviewed_on": "2026-10-16"
+  },
+  {
+    "repository": "wshobson/agents",
+    "commit": "044b4b21f083948e69ec878a7b07c8d0951a6ffa",
+    "path": "plugins/backend-development/skills/api-design-principles/SKILL.md",
+    "url": "https://github.com/wshobson/agents/blob/044b4b21f083948e69ec878a7b07c8d0951a6ffa/plugins/backend-development/skills/api-design-principles/SKILL.md",
+    "reviewed_on": "2026-10-16"
+  },
+  {
+    "repository": "wshobson/agents",
+    "commit": "044b4b21f083948e69ec878a7b07c8d0951a6ffa",
+    "path": "plugins/developer-essentials/skills/e2e-testing-patterns/SKILL.md",
+    "url": "https://github.com/wshobson/agents/blob/044b4b21f083948e69ec878a7b07c8d0951a6ffa/plugins/developer-essentials/skills/e2e-testing-patterns/SKILL.md",
+    "reviewed_on": "2026-10-16"
+  },
+  {
+    "repository": "wshobson/agents",
+    "commit": "044b4b21f083948e69ec878a7b07c8d0951a6ffa",
+    "path": "plugins/cicd-automation/skills/deployment-pipeline-design/SKILL.md",
+    "url": "https://github.com/wshobson/agents/blob/044b4b21f083948e69ec878a7b07c8d0951a6ffa/plugins/cicd-automation/skills/deployment-pipeline-design/SKILL.md",
+    "reviewed_on": "2026-10-16"
+  },
+  {
+    "repository": "Julien-ser/job-search-skill",
+    "commit": "4463e2d2997b89db0235bf547ebef8a40996c925",
+    "path": "SKILL.md",
+    "url": "https://github.com/Julien-ser/job-search-skill/blob/4463e2d2997b89db0235bf547ebef8a40996c925/SKILL.md",
+    "reviewed_on": "2026-10-16"
+  },
+  {
+    "repository": "microsoft/PowerToys",
+    "commit": "0b305162b77fa1f2e05b347d7c00cb5d8c3e0d4f",
+    "path": ".github/skills/ui-tests-local-vm/SKILL.md",
+    "url": "https://github.com/microsoft/PowerToys/blob/0b305162b77fa1f2e05b347d7c00cb5d8c3e0d4f/.github/skills/ui-tests-local-vm/SKILL.md",
+    "reviewed_on": "2026-10-16"
+  },
+  {
+    "repository": "obra/superpowers",
+    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "README.md",
+    "url": "https://github.com/obra/superpowers/blob/bb92a77741419a4ab5f06e711a283343f1ada0c3/README.md",
+    "reviewed_on": "2026-10-16"
+  },
+  {
+    "repository": "vercel-labs/web-interface-guidelines",
+    "commit": "434b7f91364665f2f733b310ec54809bf8f37937",
+    "path": "command.md",
+    "url": "https://github.com/vercel-labs/web-interface-guidelines/blob/434b7f91364665f2f733b310ec54809bf8f37937/command.md",
+    "reviewed_on": "2026-10-16"
+  }
+]

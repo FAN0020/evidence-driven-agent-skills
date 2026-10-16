@@ -1,0 +1,4 @@
+interface:
+  display_name: "Software History Lessons"
+  short_description: "Turn project history into reusable engineering lessons"
+  default_prompt: "Use $software-history-lessons to reconstruct this project’s history, extract evidence-backed lessons, and apply them to future development."

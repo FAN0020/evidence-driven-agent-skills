@@ -1,0 +1,98 @@
+{
+  "snapshot_date": "2026-10-16",
+  "description": "Hashes of the original skill files before public packaging metadata and examples. Local private paths intentionally omitted.",
+  "files": [
+    {
+      "path": "skills/product-ui-qa/SKILL.md",
+      "sha256": "0265c3368edad0ce3ab5729c014cffc48cc05845fc851af928552688c15ea2fa"
+    },
+    {
+      "path": "skills/product-ui-qa/agents/openai.yaml",
+      "sha256": "720ce27676e85caac87b3ef0fb3a8117f9deca59557a33a586c7d93d36c5da37"
+    },
+    {
+      "path": "skills/product-ui-qa/references/accessibility-checklist.md",
+      "sha256": "454ba278aa1e39ba307c7a64ffba143b33830408f2ad47680d724dd1e1d90864"
+    },
+    {
+      "path": "skills/product-ui-qa/references/adversarial-review.md",
+      "sha256": "8ee9a997647d9cb3be4ee77b559d5266234bf3eaeabaf43a5e142f53cd247821"
+    },
+    {
+      "path": "skills/product-ui-qa/references/component-necessity-and-minimal-ui.md",
+      "sha256": "1ffea55b7bfe98570e2e1b3157848284f2807f271a74a868cd178da643b78ab3"
+    },
+    {
+      "path": "skills/product-ui-qa/references/final-qa-report-template.md",
+      "sha256": "847f1208180564eded55d652fffca76656672a1a7091419e98b0f1653ea1a7b2"
+    },
+    {
+      "path": "skills/product-ui-qa/references/semantic-ui-audit.md",
+      "sha256": "2709935cb15ff2f55d968acfb417e88f3ad6958e66caf56ad5e83f4f9d261b04"
+    },
+    {
+      "path": "skills/product-ui-qa/references/state-matrix.md",
+      "sha256": "dcf796faf2809bc8b4cc429f9cfdab7ec940eaad07e48ce9dd227d72643f89d2"
+    },
+    {
+      "path": "skills/product-ui-qa/references/ui-quality-gates.md",
+      "sha256": "1c1b53b3514c63c479865e31a067f90de2d83d02e029780296697458c30ef926"
+    },
+    {
+      "path": "skills/visual-convergence/SKILL.md",
+      "sha256": "a5b7516b451ea018e518ca5d392a43f73735532875797ec099a98500494f0daa"
+    },
+    {
+      "path": "skills/visual-convergence/references/source-of-truth-template.md",
+      "sha256": "af2b8f91f38957139898b77ef4de3e837d68e6e53cb80fd4a9cc89631c38c2b8"
+    },
+    {
+      "path": "skills/project-history-archivist/SKILL.md",
+      "sha256": "943d6218a5fc648f83e1fce90055575373745e121d1d8de4ddaf3a1f5540eadf"
+    },
+    {
+      "path": "skills/project-history-archivist/agents/openai.yaml",
+      "sha256": "3399a63aa921c87ec9ef2250974cb230be530f080f96dba2369a1c6cc69eb371"
+    },
+    {
+      "path": "skills/project-history-archivist/references/records.md",
+      "sha256": "40e6eafe56d6e7918f2bede20c34b25ac54ec532a82a78c0327ce73e4510072c"
+    },
+    {
+      "path": "skills/project-history-archivist/references/report.md",
+      "sha256": "193efeed71bd1fd28fd26f1e268db575c49cf4bd9dd344663378a9374b3456c1"
+    },
+    {
+      "path": "skills/project-history-archivist/references/retrieval.md",
+      "sha256": "1e4e55b79bb816da1c71ed31890a3e84f13476505cad30c08e1db54b55519c9f"
+    },
+    {
+      "path": "skills/project-history-archivist/scripts/check_archive.py",
+      "sha256": "b2f9cc66f99ea156404afa1823ecdc0cee7953c7db78d81c67dd569d95af8f20"
+    },
+    {
+      "path": "skills/software-history-lessons/SKILL.md",
+      "sha256": "f8e49f6ce1c32032ad6fff65ad0cf521051d40349c8f43d162bf6103809a52fc"
+    },
+    {
+      "path": "skills/software-history-lessons/agents/openai.yaml",
+      "sha256": "c2735aebfd4cb6a4e539197d110349a43a3c1a36d1d9af1df525751057c1de04"
+    },
+    {
+      "path": "skills/software-history-lessons/references/durable-document.md",
+      "sha256": "63b4eb36f8f03823de52d400d280dd8f50f4e1129c47ead8b0c4fda9001fe737"
+    },
+    {
+      "path": "skills/software-history-lessons/references/experience-distillation.md",
+      "sha256": "0a8a787e1542a0c8cebcf7f6ccde7e6ed510b7a3958c8e30dc31246736579a3f"
+    },
+    {
+      "path": "skills/software-history-lessons/references/repository-forensics.md",
+      "sha256": "141b128af9182955b822f9fce284a0fb337ef979046766fd39cbb340fcb9f920"
+    },
+    {
+      "path": "skills/software-history-lessons/references/target-product-synthesis.md",
+      "sha256": "3ee8725eb1769f0089232eaca85827ec449d464084996605984d3f1aa0b709eb"
+    }
+  ]
+}

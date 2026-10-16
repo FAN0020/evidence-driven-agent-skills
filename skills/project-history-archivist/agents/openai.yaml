@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project History Archivist"
+  short_description: "Archive Codex project history in an auditable DOCX"
+  default_prompt: "Use $project-history-archivist to reconstruct this project's accessible conversations and Git evidence into a validated DOCX archive."

@@ -1,0 +1,50 @@
+{
+  "example_kind": "synthetic; illustrates schema only, not real project evidence",
+  "conversations": [
+    {
+      "id": "example-full",
+      "title": "Synthetic implementation discussion",
+      "status": "full",
+      "coverage": {
+        "first_turn_confirmed": true,
+        "last_turn_confirmed": true,
+        "prompts_inspected": true,
+        "responses_inspected": true,
+        "progress_inspected": true,
+        "timestamps_checked": true
+      },
+      "gaps": [],
+      "turns": [
+        {
+          "role": "user",
+          "content": "Add an explicit retry action for a failed upload.",
+          "source_ref": "synthetic://example-full/turn/1"
+        },
+        {
+          "role": "assistant",
+          "content": "The example record describes a retry action; no actual product change is asserted.",
+          "source_ref": "synthetic://example-full/turn/2"
+        }
+      ],
+      "events": []
+    },
+    {
+      "id": "example-unavailable",
+      "title": "Synthetic inaccessible discussion",
+      "status": "inaccessible",
+      "coverage": {
+        "first_turn_confirmed": false,
+        "last_turn_confirmed": false,
+        "prompts_inspected": false,
+        "responses_inspected": false,
+        "progress_inspected": false,
+        "timestamps_checked": false
+      },
+      "gaps": [
+        "Conversation membership is known, but the illustrative source export has no retrievable turns."
+      ],
+      "turns": [],
+      "events": []
+    }
+  ]
+}

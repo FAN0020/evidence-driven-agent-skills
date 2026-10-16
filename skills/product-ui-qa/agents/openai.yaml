@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product UI QA"
+  short_description: "Implement and verify product UI quality"
+  default_prompt: "Use $product-ui-qa to implement or review this interface and produce evidence-backed UI QA results."
