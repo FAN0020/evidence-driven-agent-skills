@@ -1,5 +1,9 @@
 # Personal skill inventory and publication selection
 
+## 2026-11-14 addition
+
+**Animated Component Picker** was created after the dated inventory below. It is included because choosing among animation components is a distinct, reusable decision: the agent checks the existing stack, then consults a compact, source-linked catalog only when a ready-made component is needed. This does not reverse the earlier decision to keep the overlapping `frontend-ui-qa` skill local. Motion's official AI Kit skill is upstream and is linked rather than republished. The catalog states task fit and compatibility, not comparative quality scores.
+
 Inventory date: **2026-10-16**. Scope: the owner's personal installed skills directory and directly maintained skill repositories under the local Developer workspace. Bundled system/plugin caches and dependency/vendor trees are excluded. This is not a claim to have found every skill on every device or remote platform.
 
 ## Ownership and scope

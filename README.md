@@ -4,7 +4,7 @@
 
 <a name="english"></a>
 
-Four reusable skills by **Fan Yupei** for reviewing product interfaces, refining visual design, reconstructing development history, and turning engineering experience into future decisions.
+Five reusable skills by **Fan Yupei** for product UI quality, animated-component selection, visual design, development-history reconstruction, and transferable engineering lessons.
 
 These are agent instructions with supporting references. They guide an agent that already has the necessary tools; they are not a standalone application or a hosted service.
 
@@ -13,6 +13,7 @@ These are agent instructions with supporting references. They guide an agent tha
 | Skill | Main job | Distinctive mechanism |
 | --- | --- | --- |
 | [Product UI QA](skills/product-ui-qa/README.md) | Decide whether a product interface supports its users and is ready | Derive components from user decisions; verify relevant rendered states; challenge completion in a second review |
+| [Animated Component Picker](skills/animated-component-picker/README.md) | Select a compatible animation component or approach | Compare task fit, stack, style, and access; load the detailed catalog only when needed |
 | [Visual Convergence](skills/visual-convergence/README.md) | Bring an existing UI toward an approved visual direction | Separate token correctness from perceptual composition; diagnose distribution, hierarchy, and visual weight |
 | [Project History Archivist](skills/project-history-archivist/README.md) | Reconstruct accessible project conversations and development into an auditable DOCX | Reconcile a conversation inventory, preserve chronology, and corroborate claims against Git |
 | [Software History Lessons](skills/software-history-lessons/README.md) | Extract transferable engineering knowledge and apply it to another product | Trace historical evidence through applicability conditions to a recommendation and validation plan |
@@ -38,7 +39,7 @@ flowchart LR
     E --> F[Deliver a review, change, or document]
 ```
 
-Use Product UI QA for task fit and product quality; add Visual Convergence when an approved aesthetic reference exists. Use Project History Archivist for conversation-led reconstruction; feed its report to Software History Lessons when reusable experience or a new product recommendation is requested. Each skill can also run independently.
+Use Product UI QA for task fit and product quality; use Animated Component Picker when choosing motion for an interface; add Visual Convergence when an approved aesthetic reference exists. Use Project History Archivist for conversation-led reconstruction; feed its report to Software History Lessons when reusable experience or a new product recommendation is requested. Each skill can also run independently.
 
 ## Architecture
 
@@ -61,7 +62,7 @@ The agent performs semantic judgment. External browser/native UI tools supply re
 
 ## Comparison and selection
 
-The [full inventory](docs/inventory-and-selection.md) covers 14 custom or locally tailored skills found in the reviewed personal directories, and separates five upstream installations. The [comparison](docs/comparisons.md) explains why these four were selected alongside the existing academic skill, using dated, commit-pinned primary sources.
+The [full inventory](docs/inventory-and-selection.md) is a dated 2026-10-16 snapshot of 14 custom or locally tailored skills and five upstream installations. The [comparison](docs/comparisons.md) explains why the original four were selected alongside the existing academic skill. Animated Component Picker was [added later](docs/inventory-and-selection.md#2026-11-14-addition) as a focused selector, with current provider links in its catalog.
 
 The advantages are **workflow design differences**, not measured win rates. No controlled comparison of model output quality has been run. Other tools may be a better fit for quick code review, direct transcript export, or a lightweight retrospective.
 
@@ -77,7 +78,7 @@ import os
 import shutil
 from pathlib import Path
 
-names = ["product-ui-qa", "visual-convergence",
+names = ["product-ui-qa", "animated-component-picker", "visual-convergence",
          "project-history-archivist", "software-history-lessons"]
 source = Path("skills")
 target = Path(os.environ.get("CODEX_HOME", str(Path.home() / ".codex"))) / "skills"
@@ -91,7 +92,7 @@ for name in names:
 PY
 ```
 
-To install one skill, reduce `names` to its directory name. Invoke it with `$product-ui-qa`, `$visual-convergence`, `$project-history-archivist`, or `$software-history-lessons`, followed by the task and relevant inputs. Each README includes a concrete prompt.
+To install one skill, reduce `names` to its directory name. Invoke it with `$product-ui-qa`, `$animated-component-picker`, `$visual-convergence`, `$project-history-archivist`, or `$software-history-lessons`, followed by the task and relevant inputs. Each README includes a concrete prompt.
 
 Other agents can read the `SKILL.md` format, but tool names, discovery paths, and conversation access vary. Compatibility with other hosts has not been runtime-tested.
 
@@ -103,7 +104,7 @@ See [verification](docs/verification.md) for the exact packaging checks and help
 
 ## Maintenance and license
 
-Original skill files were snapshotted on **2026-10-16**; their hashes are recorded in [source-manifest.json](docs/source-manifest.json). Public packaging adds READMEs, examples, metadata where missing, and comparison documentation. The installed personal copies are maintained separately.
+The original four skill files were snapshotted on **2026-10-16**; their hashes are recorded in [source-manifest.json](docs/source-manifest.json). Animated Component Picker was added on **2026-11-14**. Public packaging adds READMEs, examples, metadata where missing, and comparison documentation. The installed personal copies are maintained separately.
 
 Use issues to report a concrete failure mode, expected behavior, and a sanitized example. Do not upload private conversation exports or credentials.
 
@@ -117,7 +118,7 @@ MIT licensed; see [LICENSE](LICENSE). Referenced third-party projects retain the
 
 [返回英文版](#english)
 
-四个由 **Fan Yupei** 整理的可复用 skills，用于审查产品界面、调整视觉设计、重建开发历史，以及将工程经验转化为后续项目的决策依据。
+五个由 **Fan Yupei** 整理的可复用 skills，用于审查产品界面、选择动效组件、调整视觉设计、重建开发历史，以及将工程经验转化为后续项目的决策依据。
 
 每个 skill 由供智能体执行的指令和参考资料组成，需要运行环境提供相应工具。它们本身不提供独立应用或托管服务。
 
@@ -126,6 +127,7 @@ MIT licensed; see [LICENSE](LICENSE). Referenced third-party projects retain the
 | Skill | 核心任务 | 特色机制 |
 | --- | --- | --- |
 | [Product UI QA](skills/product-ui-qa/README.md#chinese-version) | 判断产品界面能否支持用户完成任务，以及是否达到交付要求 | 从用户决策推导组件，检查关键渲染状态，再通过第二轮审查挑战“已完成”的结论 |
+| [Animated Component Picker](skills/animated-component-picker/README.md#chinese-version) | 选择与项目兼容的动效组件或方案 | 按用途、技术栈、风格和授权筛选，只在需要时读取详细目录 |
 | [Visual Convergence](skills/visual-convergence/README.md#chinese-version) | 让现有界面逐步接近已确认的视觉方向 | 区分设计参数正确与整体观感正确，诊断视觉分布、层级和权重 |
 | [Project History Archivist](skills/project-history-archivist/README.md#chinese-version) | 将可访问的项目对话和开发记录重建为可审计的 DOCX | 核对对话清单、保留时间顺序，并使用 Git 交叉验证重要陈述 |
 | [Software History Lessons](skills/software-history-lessons/README.md#chinese-version) | 提炼可迁移的工程经验，并应用于另一个产品 | 将历史证据、适用条件、建议和验证方案串联起来 |
@@ -151,7 +153,7 @@ flowchart LR
     E --> F["交付审查结果、改动或文档"]
 ```
 
-使用 Product UI QA 判断界面的任务适配性和产品质量；已有确认的视觉参考时，可配合 Visual Convergence。使用 Project History Archivist 重建以对话为线索的开发历史；需要提炼经验或为新产品提出建议时，可将其报告作为 Software History Lessons 的输入。各 skill 也可单独使用。
+使用 Product UI QA 判断界面的任务适配性和产品质量；需要挑选动效组件时使用 Animated Component Picker；已有确认的视觉参考时，可配合 Visual Convergence。使用 Project History Archivist 重建以对话为线索的开发历史；需要提炼经验或为新产品提出建议时，可将其报告作为 Software History Lessons 的输入。各 skill 也可单独使用。
 
 ### 架构设计
 
@@ -174,7 +176,7 @@ docs/
 
 ### 同类比较与筛选
 
-[完整清单](docs/inventory-and-selection.md) 覆盖已检查个人目录中的 14 个自定义或本地定制 skills，并将 5 个上游安装项单独列出。[同类比较](docs/comparisons.md) 使用注明核对日期、固定到具体 commit 的一手来源，解释为何选择这四个 skills，并将已有的学术笔记 skill 一同展示。
+[完整清单](docs/inventory-and-selection.md) 是 2026-10-16 的历史快照，覆盖当时检查的 14 个自定义或本地定制 skills，并将 5 个上游安装项单独列出。[同类比较](docs/comparisons.md) 解释当时选择四个 skills 的依据。Animated Component Picker 于 2026-11-14 [另行加入](docs/inventory-and-selection.md#2026-11-14-addition)，其目录链接当前提供方文档。
 
 这里的优势指**工作流设计和任务适配性的差异**，不代表实测胜率。尚未进行模型输出质量的受控对照实验。快速代码审查、直接导出对话或轻量复盘等任务，可能更适合相应的专门工具。
 
@@ -182,7 +184,7 @@ docs/
 
 在 Codex 中，先克隆仓库，再将所需 skill 文件夹复制到个人 skills 目录。可直接运行上方 [Install and use](#install-and-use) 中的完整命令：默认安装到 `~/.codex/skills`；使用自定义位置时设置 `CODEX_HOME`。安装代码会拒绝覆盖已有文件夹，更新前应先检查现有版本。
 
-只安装一个 skill 时，将命令中的 `names` 列表缩减为对应目录名。安装后使用 `$product-ui-qa`、`$visual-convergence`、`$project-history-archivist` 或 `$software-history-lessons`，随后写明任务并提供相关输入。各 skill 的 README 均包含中文调用示例。
+只安装一个 skill 时，将命令中的 `names` 列表缩减为对应目录名。安装后使用 `$product-ui-qa`、`$animated-component-picker`、`$visual-convergence`、`$project-history-archivist` 或 `$software-history-lessons`，随后写明任务并提供相关输入。各 skill 的 README 均包含中文调用示例。
 
 其他智能体也可能支持 `SKILL.md` 格式，但工具名称、发现路径和对话访问能力因环境而异；尚未在其他宿主中完成运行验证。
 
@@ -194,7 +196,7 @@ docs/
 
 ### 维护与许可
 
-原始 skill 文件的快照日期为 **2026-10-16**，哈希记录在 [source-manifest.json](docs/source-manifest.json)。公开版本补充了 README、示例、缺失的显示元数据与比较文档；本机安装的个人副本独立维护。
+最初四个 skill 文件的快照日期为 **2026-10-16**，哈希记录在 [source-manifest.json](docs/source-manifest.json)；Animated Component Picker 于 **2026-11-14** 加入。公开版本补充了 README、示例、缺失的显示元数据与比较文档；本机安装的个人副本独立维护。
 
 通过 issues 反馈时，请提供具体问题、预期行为与脱敏示例。不要上传私人对话导出或凭据。
 

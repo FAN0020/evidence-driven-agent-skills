@@ -1,5 +1,11 @@
 # Publication verification
 
+## 2026-11-14 addition
+
+Animated Component Picker was added after the 2026-10-16 release documented below. Its `SKILL.md` passed the local Codex `skill-creator` validator. The entrypoint and catalog contain only the owner's original selection instructions and links to provider documentation; Motion's upstream skill is not bundled. The catalog's compatibility statements were checked against the linked providers' current documentation on 2026-11-14. They are not runtime compatibility tests or comparative quality measurements.
+
+The collection's 125 relative Markdown file links resolved locally. The updated README installation snippet copied all five skill folders with byte-identical files into a temporary `CODEX_HOME`; a second run refused existing folders. `git diff --check` passed for this update.
+
 Checked **2026-10-16** on macOS with Python **3.14.7**. These results concern this distribution's structure, installation instructions, and archive helper. They do not establish the quality of an agent's UI judgment, historical analysis, or writing.
 
 ## Completed checks
