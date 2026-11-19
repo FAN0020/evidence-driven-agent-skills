@@ -1,5 +1,9 @@
 # Publication verification
 
+## 2026-11-19 addition
+
+Repo Evolution Learning was added as a learner-oriented companion to Software History Lessons. Its SKILL.md passed the local Codex skill-creator validator. The standard-library Git index was run against a synthetic two-commit repository (both commits and path prioritization appeared) and a local shallow repository (reported its one reachable commit and shallow-history limit). These checks establish basic helper behavior, not the quality of generated lessons or completeness beyond available refs. The profile README and collection navigation were updated to link the new skill.
+
 ## 2026-11-14 addition
 
 Animated Component Picker was added after the 2026-10-16 release documented below. Its `SKILL.md` passed the local Codex `skill-creator` validator. The entrypoint and catalog contain only the owner's original selection instructions and links to provider documentation; Motion's upstream skill is not bundled. The catalog's compatibility statements were checked against the linked providers' current documentation on 2026-11-14. They are not runtime compatibility tests or comparative quality measurements.

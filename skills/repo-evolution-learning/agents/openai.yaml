@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repo Evolution Learning"
+  short_description: "Learn repository design from commits and code"
+  default_prompt: "Use $repo-evolution-learning to explain this repository's evolution and make a staged learning path."
